@@ -7,12 +7,10 @@
 //
 
 #include <iostream>
+#include "runners.h"
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    runGameParallel(1000000);
     return 0;
 }
-

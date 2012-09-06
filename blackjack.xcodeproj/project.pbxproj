@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		C02234FD15ED21B200C4C669 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C02234FC15ED21B200C4C669 /* main.cpp */; };
 		C02234FF15ED21B200C4C669 /* blackjack.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C02234FE15ED21B200C4C669 /* blackjack.1 */; };
+		C022350D15ED255C00C4C669 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C022350C15ED255C00C4C669 /* game.cpp */; };
+		C022351115ED2B7600C4C669 /* gamefns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C022351015ED2B7600C4C669 /* gamefns.cpp */; };
+		C022351515ED556400C4C669 /* playerBasic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C022351415ED556400C4C669 /* playerBasic.cpp */; };
+		C022351B15F2159B00C4C669 /* shoe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C022351A15F2159B00C4C669 /* shoe.cpp */; };
+		C022351E15F394C700C4C669 /* mersenne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C022351C15F394C700C4C669 /* mersenne.cpp */; };
+		C022352215F3E61000C4C669 /* playerMimic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C022352115F3E61000C4C669 /* playerMimic.cpp */; };
+		C0CA86CE15F6CEC5003D7693 /* runners.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0CA86CC15F6CEC5003D7693 /* runners.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +35,23 @@
 		C02234F815ED21B200C4C669 /* blackjack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = blackjack; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02234FC15ED21B200C4C669 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C02234FE15ED21B200C4C669 /* blackjack.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = blackjack.1; sourceTree = "<group>"; };
+		C022350515ED22DB00C4C669 /* playerBasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playerBasic.h; sourceTree = "<group>"; };
+		C022350A15ED242200C4C669 /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		C022350B15ED246200C4C669 /* player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = player.h; sourceTree = "<group>"; };
+		C022350C15ED255C00C4C669 /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		C022350F15ED2B5700C4C669 /* gamefns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gamefns.h; sourceTree = "<group>"; };
+		C022351015ED2B7600C4C669 /* gamefns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gamefns.cpp; sourceTree = "<group>"; };
+		C022351215ED2BDB00C4C669 /* shoe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shoe.h; sourceTree = "<group>"; };
+		C022351315ED2DC300C4C669 /* playerFixedBet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playerFixedBet.h; sourceTree = "<group>"; };
+		C022351415ED556400C4C669 /* playerBasic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = playerBasic.cpp; sourceTree = "<group>"; };
+		C022351A15F2159B00C4C669 /* shoe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shoe.cpp; sourceTree = "<group>"; };
+		C022351C15F394C700C4C669 /* mersenne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mersenne.cpp; sourceTree = "<group>"; };
+		C022351D15F394C700C4C669 /* randomc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = randomc.h; sourceTree = "<group>"; };
+		C022351F15F3CF3000C4C669 /* playerStand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playerStand.h; sourceTree = "<group>"; };
+		C022352015F3E5CC00C4C669 /* playerMimic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playerMimic.h; sourceTree = "<group>"; };
+		C022352115F3E61000C4C669 /* playerMimic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = playerMimic.cpp; sourceTree = "<group>"; };
+		C0CA86CC15F6CEC5003D7693 /* runners.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = runners.cpp; sourceTree = "<group>"; };
+		C0CA86CD15F6CEC5003D7693 /* runners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = runners.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +84,24 @@
 		C02234FB15ED21B200C4C669 /* blackjack */ = {
 			isa = PBXGroup;
 			children = (
+				C022351D15F394C700C4C669 /* randomc.h */,
+				C022351C15F394C700C4C669 /* mersenne.cpp */,
 				C02234FC15ED21B200C4C669 /* main.cpp */,
+				C022350A15ED242200C4C669 /* game.h */,
+				C022350C15ED255C00C4C669 /* game.cpp */,
+				C022351215ED2BDB00C4C669 /* shoe.h */,
+				C022351A15F2159B00C4C669 /* shoe.cpp */,
+				C022350F15ED2B5700C4C669 /* gamefns.h */,
+				C022351015ED2B7600C4C669 /* gamefns.cpp */,
+				C022350B15ED246200C4C669 /* player.h */,
+				C022351315ED2DC300C4C669 /* playerFixedBet.h */,
+				C022350515ED22DB00C4C669 /* playerBasic.h */,
+				C022351415ED556400C4C669 /* playerBasic.cpp */,
+				C022351F15F3CF3000C4C669 /* playerStand.h */,
+				C022352015F3E5CC00C4C669 /* playerMimic.h */,
+				C022352115F3E61000C4C669 /* playerMimic.cpp */,
+				C0CA86CD15F6CEC5003D7693 /* runners.h */,
+				C0CA86CC15F6CEC5003D7693 /* runners.cpp */,
 				C02234FE15ED21B200C4C669 /* blackjack.1 */,
 			);
 			path = blackjack;
@@ -118,6 +159,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C02234FD15ED21B200C4C669 /* main.cpp in Sources */,
+				C022350D15ED255C00C4C669 /* game.cpp in Sources */,
+				C022351115ED2B7600C4C669 /* gamefns.cpp in Sources */,
+				C022351515ED556400C4C669 /* playerBasic.cpp in Sources */,
+				C022351B15F2159B00C4C669 /* shoe.cpp in Sources */,
+				C022351E15F394C700C4C669 /* mersenne.cpp in Sources */,
+				C022352215F3E61000C4C669 /* playerMimic.cpp in Sources */,
+				C0CA86CE15F6CEC5003D7693 /* runners.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +222,12 @@
 		C022350315ED21B200C4C669 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				OTHER_LDFLAGS = (
+					"-lboost_thread-mt",
+					"-lboost_system",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -181,6 +235,12 @@
 		C022350415ED21B200C4C669 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				OTHER_LDFLAGS = (
+					"-lboost_thread-mt",
+					"-lboost_system",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -204,6 +264,7 @@
 				C022350415ED21B200C4C669 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
